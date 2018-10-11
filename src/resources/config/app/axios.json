@@ -1,0 +1,5 @@
+{
+  "baseURL":"/LnOnline",
+  "timeout":"10000",
+  "withCredentials":true
+}

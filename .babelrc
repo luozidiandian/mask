@@ -1,0 +1,7 @@
+{
+  "presets": [
+    ["es2015", { "modules": false }]
+  ],
+  "plugins": ["transform-runtime",["import", {"libraryName": "vant", "libraryDirectory": "es", "style": true}]],
+  "comments": false
+}

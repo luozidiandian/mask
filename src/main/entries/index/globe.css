@@ -1,0 +1,281 @@
+/* CSS Document by cc 2017-4-24 shenyang tsc using */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body,html{
+	height: 100%;
+	font-family: 微软雅黑;
+}
+
+/*add by meng-q for common start*/
+/*字体大小start*/
+.fl-fontSize-11 {
+	font-size: 11px;
+}
+
+.fl-fontSize-12 {
+	font-size: 12px;
+}
+
+.fl-fontSize-13 {
+	font-size: 13px;
+}
+
+.fl-fontSize-14 {
+	font-size: 14px;
+}
+
+.fl-fontSize-16 {
+	font-size: 16px;
+}
+
+.fl-fontSize-17 {
+	font-size: 17px;
+}
+/*字体大小end*/
+
+/*margin start*/
+.fl-mt-10 {
+	margin-top: 10px;
+}
+
+.fl-mb-10 {
+	margin-bottom: 10px;
+}
+
+.fl-ml-10 {
+	margin-left: 10px;
+}
+
+.fl-mr-10 {
+	margin-right: 10px;
+}
+.fl-mt-5 {
+	margin-top:5px;
+}
+
+.fl-mb-5 {
+	margin-bottom:5px;
+}
+
+.fl-ml-5 {
+	margin-left:5px;
+}
+
+.fl-mr-5 {
+	margin-right:5px;
+}
+
+/*margin end*/
+
+/*解决英文不折行，以单词作为换行依据*/
+.fl-breakLine-word{
+	word-wrap:break-word;
+}
+
+/*解决英文不折行，以字母作为换行依据*/
+.fl-breakLine-letter{
+	word-break:break-all;
+}
+
+/*padding start*/
+.fl-pl-35{
+	padding-left: 35px;
+}
+
+.fl-pr-35{
+	padding-right: 35px;
+}
+
+.fl-pl-30{
+	padding-left: 30px;
+}
+
+.fl-pr-30{
+	padding-right: 30px;
+}
+.fl-pl-12 {
+	padding-left:12px;
+}
+
+.fl-pr-12 {
+	padding-right:12px;
+}
+
+.fl-pl-15 {
+	padding-left:15px;
+}
+
+.fl-pr-15 {
+	padding-right:15px;
+}
+
+.fl-ptb-10{
+	padding:10px 0;
+}
+
+.fl-pr-10 {
+	padding-right:10px;
+}
+
+.fl-pl-10 {
+	padding-left:10px;
+}
+/*padding end*/
+
+/*书签样式 start*/
+.fl-markContent{
+	width: 24px;
+	height: 24px;
+	background-color: #104c93;
+	line-height: 25px;
+	text-align: center;
+	position: relative;
+	float: right;
+	font-size: 13px;
+}
+.fl-markContent:after{
+	content:'';
+	width:0;
+	border: solid;
+	border-width: 8px 12px;
+	border-color: #104c93 transparent transparent transparent;
+	border-bottom: 0;
+	right: 0;
+	position: absolute;
+	top: 24px;
+}
+/*书签样式 end*/
+/*中，西，临css*/
+.fl-markStyle{
+	width: 25px;
+	height: 25px;
+	line-height:25px;
+	text-align: center;
+	font-size: 13px;
+	float: right;
+	background-color: #104c93;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+/*主色*/
+.fl-mainColor {
+	background-color:#2b78d7;
+}
+
+/*顶端占位*/
+.fl-placeHold{
+	height:46px;
+	width: 100%;
+}
+
+/*疾病诊断宽度占比start*/
+.fl-diagnosis
+.van-cell__title {
+	flex:1;
+}
+
+.fl-diagnosis
+.van-cell__value {
+	flex:2;
+}
+/*疾病诊断宽度占比end*/
+
+/*字体颜色start*/
+
+.fl-color-55 {
+	color:#555555;
+}
+.fl-color-66 {
+	color:#666666;
+}
+
+.fl-color-33 {
+	color:#333333;
+}
+
+.fl-color-40 {
+	color:#404040;
+}
+
+.fl-color-99 {
+	color:#999999;
+}
+
+.fl-color-1c {
+	color:#1c1c1c;
+}
+
+.fl-color-22 {
+	color:#222222;
+}
+
+.fl-color-ff {
+	color:#ffffff;
+}
+/*字体颜色end*/
+
+/*报告背景颜色*/
+.fl-bgColor-Rep {
+	background-color: #f8f8f8;
+	min-height: 100%;
+}
+
+/*下拉刷新可拖拽高度设置*/
+.refreshStyle {
+	min-height: calc(100vh - 46px);
+}
+
+/*b900*/
+.fl-fontWeight-900 {
+	font-weight: 900;
+}
+/*add by meng-q for common end*/
+	
+	
+	
+	
+	
+	
